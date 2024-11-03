@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+form buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+form * input{
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    height: 2em;
+    margin: 1vh;
+    color: black;
+    background-color: rgb(151, 151, 151);
+    border: none;
+    border-radius: 0.5em;
+}
+
+form textBoxes input:nth-child(1), form textBoxes input:nth-child(2), form textBoxes input:nth-child(3), form textBoxes input:nth-child(4){
+    padding: 1vh;
+    width: 20em;
+}
