@@ -18,8 +18,5 @@
   "description": "",
   "dependencies": {
     "mysql": "^2.18.1"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.0"
   }
 }
